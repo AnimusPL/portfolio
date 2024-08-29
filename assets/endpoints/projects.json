@@ -2,18 +2,18 @@
     "Projects": 
         [
             {
-                "Name": "Portfolio",
-                "Date": "2024",
-                "GitHubUrl": "https://github.com/",
+                "Name": "portfolio",
+                "Date": "08.2024",
+                "GitHubUrl": "https://github.com/AnimusPL/portfolio",
                 "TestUrl": "#",
-                "Description": "Strona internetowa prezentująca moje portfolio, zawierająca opis kariery, zdobyte certyfikaty oraz zrealizowane projekty. Strona jest responsywna i intuicyjna, z sekcjami opisującymi moje umiejętności, doświadczenie oraz szczegółowe informacje o projektach, wzbogacone o linki do kodu źródłowego."
+                "Description": "Ph79"
             },
             {
-                "Name": "Test",
-                "Date": "2024",
+                "Name": "js-game1",
+                "Date": "02.2024",
                 "GitHubUrl": "https://github.com/",
-                "TestUrl": "dupa.pl",
-                "Description": "Opis projektu"
+                "TestUrl": "#",
+                "Description": "Ph80"
             }
         ]
 }
