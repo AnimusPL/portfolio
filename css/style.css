@@ -10,10 +10,10 @@ body {
     height: 100vh;
     width: 100vw;
     transition: background-color 0.5s;
-    /* user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none; */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
 }
 
 #background {
@@ -61,6 +61,7 @@ body {
 .portfolio-frame {
     border: 1px solid white;
     flex-wrap: wrap;
+    padding: 1.5rem !important;
 }
 
 .portfolio-socials {
@@ -88,6 +89,7 @@ body {
 }
 
 .portfolio-cv-block {
+    flex-direction: row;
     transition: all 0.2s;
     cursor: pointer;
     border-radius: 10px;
@@ -145,6 +147,10 @@ body {
     filter: blur(5px);
 }
 
+.portfolio-cv-block-list {
+    width: 70%;
+}
+
 .custom-scrollbar {
     top: 0;
     right: 0;
@@ -193,6 +199,10 @@ body {
     cursor: pointer;
 }
 
+.portfolio-project {
+    width: 100%;
+}
+
 /* Ukrywanie domyślnego scrollbara */
 .portfolio-content-inner::-webkit-scrollbar {
     width: 0px;
@@ -202,18 +212,60 @@ body {
     opacity: 1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     body {
         height: auto;
+        padding: 0 !important;
     }
     .portfolio-frame {
         flex-direction: row !important;
     }
     .portfolio-menu {
-        width: 100%;
+        display: none !important;
+        /* width: 100%; */
     }
     .portfolio-content {
         height: auto !important;
         width: 100%;
+        text-align: justify;
+    }
+    .portfolio-frame-menu {
+        width: 100%;
+    }
+    .portfolio-content {
+        padding: 0 !important;
+    }
+    .custom-scrollbar {
+        display: none;
+    }
+    .portfolio-content-inner {
+        width: 100% !important;
+        font-size: 14px;
+        padding: 0;
+    }
+    .portfolio-frame {
+        padding: 2rem !important;
+    }
+    .portfolio-cv-block {
+        flex-direction: column;
+        padding: 0 !important;
+    }
+    .portfolio-cv-block-list {
+        width: 100%;
+        font-size: 14px;
+        text-align: start;
+    }
+    .portfolio-certificates-row {
+        flex-direction: column-reverse !important;
+    }
+    .portfolio-certificate {
+        width: 100%;
+    }
+    .portfolio-certificates-container {
+        width: 100% !important;
+        padding: 0 !important
+    }
+    .portfolio-certificates-year {
+        padding: 0 0 1rem 0!important;
     }
 }
