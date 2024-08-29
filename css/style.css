@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    background-color: #19182c;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-weight: 100;
+    height: 100vh;
+    width: 100vw;
+    transition: background-color 0.5s;
+    /* user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; */
+}
+
+#background {
+    z-index: -1;
+}
+
+
+.fw-100 {font-weight: 100;}
+.fw-200 {font-weight: 200;}
+.fw-300 {font-weight: 300;}
+.fw-400 {font-weight: 400;}
+.fw-500 {font-weight: 500;}
+.fw-600 {font-weight: 600;}
+.fw-700 {font-weight: 700;}
+
+.w-20 {width: 20%;}
+.w-30 {width: 30%;}
+.w-40 {width: 40%;}
+.w-42 {width: 42%;}
+.w-60 {width: 60%;}
+.w-70 {width: 70%;}
+.w-80 {width: 80%;}
+
+.text-94a3b8 {color: #94a3b8;}
+.text-ffffff {color: #ffffff;}
+.text-00f7ff {color: #00f7ff;}
+
+.text-10 {font-size: 10px; line-height: 10px;}
+.text-11 {font-size: 11px; line-height: 11px;}
+.text-12 {font-size: 12px; line-height: 12px;}
+.text-13 {font-size: 13px; line-height: 13px;}
+.text-14 {font-size: 14px; line-height: 14px;}
+.text-15 {font-size: 15px; line-height: 15px;}
+.text-16 {font-size: 16px; line-height: 16px;}
+.text-17 {font-size: 17px; line-height: 17px;}
+.text-18 {font-size: 18px; line-height: 18px;}
+.text-19 {font-size: 19px; line-height: 19px;}
+.text-20 {font-size: 20px; line-height: 20px;}
+.text-20 {font-size: 20px;line-height: 20px;}
+.text-30 {font-size: 30px;line-height: 30px;}
+.text-40 {font-size: 40px;line-height: 40px;}
+.text-50 {font-size: 50px;line-height: 50px;}
+.text-60 {font-size: 60px;line-height: 60px;}
+
+.portfolio-frame {
+    border: 1px solid white;
+    flex-wrap: wrap;
+}
+
+.portfolio-socials {
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.portfolio-socials:hover {
+    margin-bottom: 5px;
+}
+
+.portfolio-menu-link {
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.portfolio-menu-link:hover {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.portfolio-content {
+    overflow: hidden;
+}
+
+.portfolio-cv-block {
+    transition: all 0.2s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.portfolio-cv-block:hover {
+    background-color: #ffffff10;
+}
+.portfolio-tech-name {
+    background-color: rgba(0, 105, 109, 0.349);
+    width: fit-content;
+    border-radius: 25px;
+}
+
+.portfolio-content-inner {
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+    padding-right: 20px;
+    -ms-overflow-style: none;  /* Dla Internet Explorer i Edge */
+    scrollbar-width: none;     /* Dla Firefox */
+}
+
+.portfolio-certificate {
+    width: 250px;
+    cursor: pointer;
+}
+
+.portfolio-photo {
+    width: 40%;
+    border: solid 1px white;
+    border-radius: 100%;
+}
+
+.portfolio-background-option {
+    font-size: 12px;
+    line-height: 12px;
+    border: solid 1px white;
+    min-width: 25px;
+    min-height: 25px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.portfolio-background-select {
+    line-height: 12px;
+    border: solid 1px white;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.portfolio-project-locked {
+    background-image: url('/assets/images/lock.svg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+}
+
+.custom-scrollbar {
+    top: 0;
+    right: 0;
+    width: 10px;
+    background-color: #94a3b8;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Stylizacja modala */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1000;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
+}
+
+.modal-content.zoomed {
+    transform: scale(1.6);
+    cursor: zoom-out;
+}
+
+/* Stylizacja przycisku zamykania */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Ukrywanie domyślnego scrollbara */
+.portfolio-content-inner::-webkit-scrollbar {
+    width: 0px;
+}
+
+.portfolio-content:hover .custom-scrollbar {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    body {
+        height: auto;
+    }
+    .portfolio-frame {
+        flex-direction: row !important;
+    }
+    .portfolio-menu {
+        width: 100%;
+    }
+    .portfolio-content {
+        height: auto !important;
+        width: 100%;
+    }
+}

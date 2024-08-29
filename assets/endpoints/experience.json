@@ -1,0 +1,125 @@
+{
+    "Career": 
+        [
+            {
+                "Position": "Ph16",
+                "Company": "Ph17",
+                "CompanyUrl": "Ph19",
+                "From": "Ph77",
+                "To": "Ph78",
+                "Responsibilities": [
+                    {"text": "Ph11"},
+                    {"text": "Ph12"},
+                    {"text": "Ph13"},
+                    {"text": "Ph14"},
+                    {"text": "Ph15"}
+                ],
+                "Technologies": [
+                    {"name": "Ph27"},
+                    {"name": "Ph28"},
+                    {"name": "Ph29"},
+                    {"name": "Ph30"},
+                    {"name": "Ph31"}
+                ]
+            },
+            {
+                "Position": "Ph18",
+                "Company": "Ph17",
+                "CompanyUrl": "Ph19",
+                "From": "Ph20",
+                "To": "Ph21",
+                "Responsibilities": [
+                    {"text": "Ph22"},
+                    {"text": "Ph23"},
+                    {"text": "Ph24"},
+                    {"text": "Ph25"},
+                    {"text": "Ph26"}
+                ],
+                "Technologies": [
+                    {"name": "Ph27"},
+                    {"name": "Ph28"},
+                    {"name": "Ph29"},
+                    {"name": "Ph30"},
+                    {"name": "Ph31"}
+                ]
+            },
+            {
+                "Position": "Ph32",
+                "Company": "Ph17",
+                "CompanyUrl": "Ph19",
+                "From": "Ph33",
+                "To": "Ph34",
+                "Responsibilities": [
+                    {"text": "Ph35"},
+                    {"text": "Ph36"},
+                    {"text": "Ph37"},
+                    {"text": "Ph38"},
+                    {"text": "Ph39"},
+                    {"text": "Ph40"},
+                    {"text": "Ph41"},
+                    {"text": "Ph42"},
+                    {"text": "Ph43"},
+                    {"text": "Ph44"},
+                    {"text": "Ph45"},
+                    {"text": "Ph46"}
+                ],
+                "Technologies": [
+                    {"name": "Ph47"},
+                    {"name": "Ph48"},
+                    {"name": "Ph49"},
+                    {"name": "Ph50"},
+                    {"name": "Ph51"}
+                ]
+            },
+            {
+                "Position": "Ph52",
+                "Company": "Ph53",
+                "CompanyUrl": false,
+                "From": "Ph54",
+                "To": "Ph55",
+                "Responsibilities": [
+                    {"text": "Ph56"},
+                    {"text": "Ph57"},
+                    {"text": "Ph58"},
+                    {"text": "Ph59"},
+                    {"text": "Ph60"},
+                    {"text": "Ph61"},
+                    {"text": "Ph62"}
+                ],
+                "Technologies": [
+                    {"name": "Ph63"},
+                    {"name": "Ph28"},
+                    {"name": "Ph48"},
+                    {"name": "Ph49"},
+                    {"name": "Ph50"},
+                    {"name": "Ph51"}
+                ]
+            },
+            {
+                "Position": "Ph64",
+                "Company": "Ph53",
+                "CompanyUrl": false,
+                "From": "Ph65",
+                "To": "Ph66",
+                "Responsibilities": [
+                    {"text": "Ph67"},
+                    {"text": "Ph68"},
+                    {"text": "Ph69"},
+                    {"text": "Ph70"},
+                    {"text": "Ph71"},
+                    {"text": "Ph72"},
+                    {"text": "Ph73"},
+                    {"text": "Ph74"},
+                    {"text": "Ph75"},
+                    {"text": "Ph76"}
+                ],
+                "Technologies": [
+                    {"name": "Ph63"},
+                    {"name": "Ph48"},
+                    {"name": "Ph49"},
+                    {"name": "Ph50"},
+                    {"name": "Ph51"}
+                ]
+            }
+        ]
+}
