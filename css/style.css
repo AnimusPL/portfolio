@@ -203,6 +203,10 @@ body {
     width: 100%;
 }
 
+.hamburger-menu {
+    display: none;
+}
+
 /* Ukrywanie domyślnego scrollbara */
 .portfolio-content-inner::-webkit-scrollbar {
     width: 0px;
@@ -219,6 +223,7 @@ body {
     }
     .portfolio-frame {
         flex-direction: row !important;
+        border: none;
     }
     .portfolio-menu {
         display: none !important;
@@ -267,5 +272,8 @@ body {
     }
     .portfolio-certificates-year {
         padding: 0 0 1rem 0!important;
+    }
+    .hamburger-menu {
+        display: flex;
     }
 }
