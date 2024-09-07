@@ -258,6 +258,12 @@ const Projects = {
         $('body').on('click', '.portfolio-menu-link[name="projects"]', function(e) {
             window.location.hash = 'projects'; // Ustawienie hasha w URL
         });
+        $('body').on('click', '.hamburger-menu-icon', function(e) {
+            $('.hamburger-menu').toggleClass('d-none');
+        });
+        $('body').on('click', '.portfolio-menu-link-hamburger', function(e) {
+            $('.hamburger-menu').toggleClass('d-none');
+        });
     }
 }
 

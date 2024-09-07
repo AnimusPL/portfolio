@@ -203,7 +203,7 @@ body {
     width: 100%;
 }
 
-.hamburger-menu {
+.hamburger-menu-icon {
     display: none;
 }
 
@@ -215,6 +215,13 @@ body {
 .portfolio-content:hover .custom-scrollbar {
     opacity: 1;
 }
+
+@media (min-width: 999px) {
+    .hamburger-menu {
+        display: none;
+    }
+}
+
 
 @media (max-width: 1000px) {
     body {
@@ -233,19 +240,18 @@ body {
         height: auto !important;
         width: 100%;
         text-align: justify;
+        padding: 0 !important;
+        padding-top: 2rem !important;
     }
     .portfolio-frame-menu {
         width: 100%;
-    }
-    .portfolio-content {
-        padding: 0 !important;
     }
     .custom-scrollbar {
         display: none;
     }
     .portfolio-content-inner {
         width: 100% !important;
-        font-size: 14px;
+        font-size: 17px;
         padding: 0;
     }
     .portfolio-frame {
@@ -257,7 +263,8 @@ body {
     }
     .portfolio-cv-block-list {
         width: 100%;
-        font-size: 14px;
+        font-size: 16px;
+        line-height: 20px;
         text-align: start;
     }
     .portfolio-certificates-row {
@@ -273,7 +280,16 @@ body {
     .portfolio-certificates-year {
         padding: 0 0 1rem 0!important;
     }
-    .hamburger-menu {
+    .hamburger-menu-icon {
         display: flex;
+    }
+    .hamburger-menu {
+        left: 0;
+        top: 0;
+        background-color: #000000e0;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        z-index: 999;
     }
 }
