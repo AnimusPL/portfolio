@@ -141,7 +141,7 @@ body {
     cursor: pointer;
 }
 .portfolio-project-locked {
-    background-image: url('/assets/images/lock.svg');
+    background-image: url('assets/images/lock.svg');
     background-size:contain;
     background-repeat: no-repeat;
     filter: blur(5px);
